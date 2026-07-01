@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>King D Shoes | Premium Footwear</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
-rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
 
 <body>
 
-<nav>
+<header>
+
+<nav class="navbar">
 
 <div class="logo">
 
@@ -38,9 +36,11 @@ King D Shoes
 
 </div>
 
-<ul>
+<ul class="nav-links">
 
 <li><a href="#">Home</a></li>
+
+<li><a href="#categories">Categories</a></li>
 
 <li><a href="#shop">Shop</a></li>
 
@@ -50,27 +50,33 @@ King D Shoes
 
 </ul>
 
+<div class="icons">
+
+<i class="fa-solid fa-heart"></i>
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+</div>
+
 </nav>
 
 <section class="hero">
 
-<div class="hero-text">
+<div class="hero-content">
 
-<h1>Find Your Perfect Pair</h1>
+<h1>Walk In Style.</h1>
+
+<h2>Step Into Confidence.</h2>
 
 <p>
 
-Premium sneakers, boots, clarks, heels, slides, sandals and many more.
+Discover premium sneakers, boots, heels, clarks, slides, sandals, crocs, loafers and many more.
 
 </p>
 
-<a href="#shop">
-
-<button>
+<a href="#shop" class="btn">
 
 Shop Now
-
-</button>
 
 </a>
 
@@ -78,294 +84,821 @@ Shop Now
 
 </section>
 
-<section class="search">
+</header>
+
+<section class="search-section">
 
 <input
 type="text"
-placeholder="Search shoes...">
+id="search"
+placeholder="Search for shoes...">
+
+</section>
+
+<section id="categories">
+
+<h2 class="section-title">
+
+Shop By Category
+
+</h2>
+
+<div class="categories">done
+    <div class="category-card">
+<i class="fa-solid fa-shoe-prints"></i>
+<h3>Sneakers</h3>
+<p>Nike, Adidas, Jordan & more</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-boot"></i>
+<h3>Boots</h3>
+<p>Timberland, Chelsea & Hiking Boots</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-person-dress"></i>
+<h3>High Heels</h3>
+<p>Luxury heels for every occasion</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-person"></i>
+<h3>Leather Shoes</h3>
+<p>Office & Formal Shoes</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-child"></i>
+<h3>Kids Shoes</h3>
+<p>Comfortable shoes for children</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-person-running"></i>
+<h3>Sports Shoes</h3>
+<p>Running, Training & Gym</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-socks"></i>
+<h3>Slides & Sandals</h3>
+<p>Comfort for everyday wear</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-star"></i>
+<h3>New Arrivals</h3>
+<p>Latest fashion collections</p>
+</div>
+
+</div>
 
 </section>
 
 <section id="shop">
 
-<h2>
+<h2 class="section-title">
 
-Featured Collection
+Featured Products
 
 </h2>
 
 <div class="products">
     <div class="products">
         <div class="card">
-<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800" alt="Nike Air Max">
-<div class="card-content">
-<span class="badge">🔥 Hot</span>
-<h3>Nike Air Max</h3>
-<p class="price">KSh 5,999</p>
-<p>Sizes: 39-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Nike%20Air%20Max." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800" alt="Adidas">
-<div class="card-content">
-<span class="badge">New</span>
-<h3>Adidas Ultraboost</h3>
-<p class="price">KSh 6,500</p>
-<p>Sizes: 38-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Adidas%20Ultraboost." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1608256246200-53e8b47b2f80?w=800" alt="Clarks">
-<div class="card-content">
-<span class="badge">Classic</span>
-<h3>Clarks Leather</h3>
-<p class="price">KSh 7,200</p>
-<p>Sizes: 40-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Clarks%20Leather." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800" alt="High Heels">
-<div class="card-content">
-<span class="badge">Sale</span>
-<h3>Luxury High Heels</h3>
-<p class="price">KSh 4,900</p>
-<p>Sizes: 36-41</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Luxury%20High%20Heels." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800" alt="Slides">
-<div class="card-content">
-<span class="badge">Best Seller</span>
-<h3>Comfort Slides</h3>
-<p class="price">KSh 2,300</p>
-<p>Sizes: 38-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Comfort%20Slides." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=800" alt="Kids">
-<div class="card-content">
-<span class="badge">Kids</span>
-<h3>Kids Sneakers</h3>
-<p class="price">KSh 2,999</p>
-<p>Sizes: 28-35</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Kids%20Sneakers." class="order-btn">Order Now</a>
-</div>
-</div>
-<div class="card">
-<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800" alt="Jordan">
-<div class="card-content">
-<span class="badge">Trending</span>
-<h3>Air Jordan 1</h3>
-<p class="price">KSh 8,999</p>
-<p>Sizes: 39-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Air%20Jordan%201." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?w=800" alt="Timberland">
-<div class="card-content">
-<span class="badge">Premium</span>
-<h3>Timberland Boots</h3>
-<p class="price">KSh 9,500</p>
-<p>Sizes: 40-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Timberland%20Boots." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800" alt="Puma">
-<div class="card-content">
-<span class="badge">New</span>
-<h3>Puma RS-X</h3>
-<p class="price">KSh 6,200</p>
-<p>Sizes: 39-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Puma%20RS-X." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=800" alt="Running">
-<div class="card-content">
-<span class="badge">Running</span>
-<h3>Running Shoes</h3>
-<p class="price">KSh 4,800</p>
-<p>Sizes: 38-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Running%20Shoes." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=800" alt="Crocs">
+<img src="images/crocs.jpg" alt="Crocs">
 <div class="card-content">
 <span class="badge">Comfort</span>
-<h3>Crocs Clogs</h3>
+<h3>Crocs Classic Clogs</h3>
 <p class="price">KSh 3,200</p>
-<p>Sizes: 37-45</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Crocs%20Clogs." class="order-btn">Order Now</a>
+<p>Sizes: 37–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Crocs%20Classic%20Clogs." class="order-btn">Order on WhatsApp</a>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800" alt="Loafers">
+<img src="images/slides.jpg" alt="Slides">
 <div class="card-content">
-<span class="badge">Office</span>
-<h3>Leather Loafers</h3>
-<p class="price">KSh 5,700</p>
-<p>Sizes: 39-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Leather%20Loafers." class="order-btn">Order Now</a>
+<span class="badge">Popular</span>
+<h3>Comfort Slides</h3>
+<p class="price">KSh 2,300</p>
+<p>Sizes: 38–45</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Comfort%20Slides." class="order-btn">Order on WhatsApp</a>
 </div>
 </div>
+
 <div class="card">
-<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800" alt="Luxury Heels">
+<img src="images/heels.jpg" alt="Luxury Heels">
 <div class="card-content">
 <span class="badge">Luxury</span>
 <h3>Luxury High Heels</h3>
 <p class="price">KSh 5,800</p>
-<p>Sizes: 36-41</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20the%20Luxury%20High%20Heels." class="order-btn">Order Now</a>
+<p>Sizes: 36–41</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Luxury%20High%20Heels." class="order-btn">Order on WhatsApp</a>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800" alt="Women's Sandals">
+<img src="images/sandals.jpg" alt="Sandals">
 <div class="card-content">
-<span class="badge">Popular</span>
+<span class="badge">Summer</span>
 <h3>Women's Sandals</h3>
 <p class="price">KSh 2,900</p>
-<p>Sizes: 36-42</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20Women's%20Sandals." class="order-btn">Order Now</a>
+<p>Sizes: 36–42</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Women's%20Sandals." class="order-btn">Order on WhatsApp</a>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=800" alt="Fashion Sneakers">
-<div class="card-content">
-<span class="badge">Trending</span>
-<h3>Women's Fashion Sneakers</h3>
-<p class="price">KSh 4,600</p>
-<p>Sizes: 36-42</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20Women's%20Fashion%20Sneakers." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800" alt="Canvas Shoes">
-<div class="card-content">
-<span class="badge">New</span>
-<h3>Canvas Shoes</h3>
-<p class="price">KSh 3,500</p>
-<p>Sizes: 37-44</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20Canvas%20Shoes." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=800" alt="Leather Shoes">
-<div class="card-content">
-<span class="badge">Classic</span>
-<h3>Men's Leather Shoes</h3>
-<p class="price">KSh 6,800</p>
-<p>Sizes: 40-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20Men's%20Leather%20Shoes." class="order-btn">Order Now</a>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800" alt="Office Shoes">
+<img src="images/loafers.jpg" alt="Loafers">
 <div class="card-content">
 <span class="badge">Office</span>
-<h3>Formal Office Shoes</h3>
+<h3>Leather Loafers</h3>
+<p class="price">KSh 5,700</p>
+<p>Sizes: 39–46</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Leather%20Loafers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/canvas.jpg" alt="Canvas Shoes">
+<div class="card-content">
+<span class="badge">New</span>
+<h3>Canvas Sneakers</h3>
+<p class="price">KSh 3,600</p>
+<p>Sizes: 38–44</p>
+<p>⭐⭐⭐⭐☆ (4.7)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Canvas%20Sneakers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/newbalance.jpg" alt="New Balance">
+<div class="card-content">
+<span class="badge">Trending</span>
+<h3>New Balance 9060</h3>
+<p class="price">KSh 7,800</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20New%20Balance%209060." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/converse.jpg" alt="Converse">
+<div class="card-content">
+<span class="badge">Classic</span>
+<h3>Converse Chuck Taylor</h3>
+<p class="price">KSh 4,900</p>
+<p>Sizes: 38–45</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Converse%20Chuck%20Taylor." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/vans.jpg" alt="Vans">
+<div class="card-content">
+<span class="badge">Skate</span>
+<h3>Vans Old Skool</h3>
+<p class="price">KSh 5,400</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Vans%20Old%20Skool." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/asics.jpg" alt="ASICS">
+<div class="card-content">
+<span class="badge">Running</span>
+<h3>ASICS Gel-Kayano</h3>
+<p class="price">KSh 8,200</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20ASICS%20Gel-Kayano." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+<div class="card">
+<img src="images/reebok.jpg" alt="Reebok Club C">
+<div class="card-content">
+<span class="badge">Classic</span>
+<h3>Reebok Club C</h3>
+<p class="price">KSh 5,300</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Reebok%20Club%20C." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/skechers.jpg" alt="Skechers">
+<div class="card-content">
+<span class="badge">Comfort</span>
+<h3>Skechers Go Walk</h3>
+<p class="price">KSh 5,900</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Skechers%20Go%20Walk." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/hoka.jpg" alt="Hoka">
+<div class="card-content">
+<span class="badge">Running</span>
+<h3>Hoka Clifton 9</h3>
+<p class="price">KSh 9,800</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Hoka%20Clifton%209." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/underarmour.jpg" alt="Under Armour">
+<div class="card-content">
+<span class="badge">Training</span>
+<h3>Under Armour HOVR</h3>
+<p class="price">KSh 7,400</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Under%20Armour%20HOVR." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/puma-rsx.jpg" alt="Puma RS-X">
+<div class="card-content">
+<span class="badge">Hot</span>
+<h3>Puma RS-X</h3>
 <p class="price">KSh 6,300</p>
-<p>Sizes: 39-46</p>
-<a href="https://wa.me/254104447580?text=Hello%20King%20D%20Shoes!%20I'm%20interested%20in%20Formal%20Office%20Shoes." class="order-btn">Order Now</a>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Puma%20RS-X." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/chelsea-boots.jpg" alt="Chelsea Boots">
+<div class="card-content">
+<span class="badge">Premium</span>
+<h3>Chelsea Boots</h3>
+<p class="price">KSh 8,400</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Chelsea%20Boots." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/work-boots.jpg" alt="Work Boots">
+<div class="card-content">
+<span class="badge">Durable</span>
+<h3>Safety Work Boots</h3>
+<p class="price">KSh 7,900</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Safety%20Work%20Boots." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/kids-sneakers.jpg" alt="Kids Sneakers">
+<div class="card-content">
+<span class="badge">Kids</span>
+<h3>Kids Sneakers</h3>
+<p class="price">KSh 2,800</p>
+<p>Sizes: 28–35</p>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Kids%20Sneakers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/football-boots.jpg" alt="Football Boots">
+<div class="card-content">
+<span class="badge">Sports</span>
+<h3>Football Boots</h3>
+<p class="price">KSh 4,700</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐☆ (4.7)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Football%20Boots." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/hiking-boots.jpg" alt="Hiking Boots">
+<div class="card-content">
+<span class="badge">Adventure</span>
+<h3>Hiking Boots</h3>
+<p class="price">KSh 8,900</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Hiking%20Boots." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+<div class="card">
+<img src="images/nike-dunk.jpg" alt="Nike Dunk Low">
+<div class="card-content">
+<span class="badge">New</span>
+<h3>Nike Dunk Low</h3>
+<p class="price">KSh 6,800</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Nike%20Dunk%20Low." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/airforce1.jpg" alt="Nike Air Force 1">
+<div class="card-content">
+<span class="badge">Best Seller</span>
+<h3>Nike Air Force 1</h3>
+<p class="price">KSh 7,200</p>
+<p>Sizes: 39–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Nike%20Air%20Force%201." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/adidas-samba.jpg" alt="Adidas Samba">
+<div class="card-content">
+<span class="badge">Trending</span>
+<h3>Adidas Samba</h3>
+<p class="price">KSh 6,900</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Adidas%20Samba." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/adidas-gazelle.jpg" alt="Adidas Gazelle">
+<div class="card-content">
+<span class="badge">Classic</span>
+<h3>Adidas Gazelle</h3>
+<p class="price">KSh 6,500</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Adidas%20Gazelle." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/jordan4.jpg" alt="Jordan 4">
+<div class="card-content">
+<span class="badge">Hot</span>
+<h3>Air Jordan 4</h3>
+<p class="price">KSh 10,500</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Air%20Jordan%204." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/jordan11.jpg" alt="Jordan 11">
+<div class="card-content">
+<span class="badge">Premium</span>
+<h3>Air Jordan 11</h3>
+<p class="price">KSh 11,000</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Air%20Jordan%2011." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/yeezy.jpg" alt="Yeezy Boost">
+<div class="card-content">
+<span class="badge">Limited</span>
+<h3>Yeezy Boost 350</h3>
+<p class="price">KSh 12,500</p>
+<p>Sizes: 39–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Yeezy%20Boost%20350." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/drmartens.jpg" alt="Dr Martens">
+<div class="card-content">
+<span class="badge">Iconic</span>
+<h3>Dr. Martens Boots</h3>
+<p class="price">KSh 9,900</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Dr.%20Martens%20Boots." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/birkenstock.jpg" alt="Birkenstock">
+<div class="card-content">
+<span class="badge">Comfort</span>
+<h3>Birkenstock Sandals</h3>
+<p class="price">KSh 5,500</p>
+<p>Sizes: 38–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Birkenstock%20Sandals." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/pegasus.jpg" alt="Nike Pegasus">
+<div class="card-content">
+<span class="badge">Running</span>
+<h3>Nike Pegasus</h3>
+<p class="price">KSh 8,700</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Nike%20Pegasus." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+<div class="card">
+<img src="images/womens-flats.jpg" alt="Women's Flats">
+<div class="card-content">
+<span class="badge">Ladies</span>
+<h3>Women's Flats</h3>
+<p class="price">KSh 2,800</p>
+<p>Sizes: 36–42</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Women's%20Flats." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/ballet-shoes.jpg" alt="Ballet Shoes">
+<div class="card-content">
+<span class="badge">Elegant</span>
+<h3>Ballet Shoes</h3>
+<p class="price">KSh 3,100</p>
+<p>Sizes: 36–41</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Ballet%20Shoes." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/school-shoes.jpg" alt="School Shoes">
+<div class="card-content">
+<span class="badge">School</span>
+<h3>School Shoes</h3>
+<p class="price">KSh 2,500</p>
+<p>Sizes: 30–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20School%20Shoes." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/wedding-shoes.jpg" alt="Wedding Shoes">
+<div class="card-content">
+<span class="badge">Luxury</span>
+<h3>Wedding Shoes</h3>
+<p class="price">KSh 7,500</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Wedding%20Shoes." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/basketball.jpg" alt="Basketball Shoes">
+<div class="card-content">
+<span class="badge">Sports</span>
+<h3>Basketball Shoes</h3>
+<p class="price">KSh 8,800</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Basketball%20Shoes." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/tennis.jpg" alt="Tennis Shoes">
+<div class="card-content">
+<span class="badge">Pro</span>
+<h3>Tennis Shoes</h3>
+<p class="price">KSh 6,700</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐☆ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Tennis%20Shoes." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/slipons.jpg" alt="Slip Ons">
+<div class="card-content">
+<span class="badge">Casual</span>
+<h3>Casual Slip-ons</h3>
+<p class="price">KSh 3,600</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Casual%20Slip-ons." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/designer-loafers.jpg" alt="Designer Loafers">
+<div class="card-content">
+<span class="badge">Designer</span>
+<h3>Designer Loafers</h3>
+<p class="price">KSh 8,400</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Designer%20Loafers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/premium-clarks.jpg" alt="Premium Clarks">
+<div class="card-content">
+<span class="badge">Premium</span>
+<h3>Premium Clarks</h3>
+<p class="price">KSh 9,300</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Premium%20Clarks." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/gucci-loafers.jpg" alt="Gucci Loafers">
+<div class="card-content">
+<span class="badge">Luxury</span>
+<h3>Gucci Loafers</h3>
+<p class="price">KSh 15,000</p>
+<p>Sizes: 40–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Gucci%20Loafers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/lv-sneakers.jpg" alt="LV Sneakers">
+<div class="card-content">
+<span class="badge">Exclusive</span>
+<h3>Louis Vuitton Sneakers</h3>
+<p class="price">KSh 18,500</p>
+<p>Sizes: 40–45</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Louis%20Vuitton%20Sneakers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/balenciaga.jpg" alt="Balenciaga Triple S">
+<div class="card-content">
+<span class="badge">Luxury</span>
+<h3>Balenciaga Triple S</h3>
+<p class="price">KSh 20,000</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Balenciaga%20Triple%20S." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/kids-sandals.jpg" alt="Kids Sandals">
+<div class="card-content">
+<span class="badge">Kids</span>
+<h3>Kids Sandals</h3>
+<p class="price">KSh 2,200</p>
+<p>Sizes: 28–35</p>
+<p>⭐⭐⭐⭐⭐ (4.8)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Kids%20Sandals." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/running-trainers.jpg" alt="Running Trainers">
+<div class="card-content">
+<span class="badge">Fitness</span>
+<h3>Running Trainers</h3>
+<p class="price">KSh 6,200</p>
+<p>Sizes: 39–45</p>
+<p>⭐⭐⭐⭐⭐ (4.9)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20Running%20Trainers." class="order-btn">Order on WhatsApp</a>
+</div>
+</div>
+
+<div class="card">
+<img src="images/limited-edition.jpg" alt="Limited Edition">
+<div class="card-content">
+<span class="badge">Limited Edition</span>
+<h3>Collector's Sneaker</h3>
+<p class="price">KSh 25,000</p>
+<p>Sizes: 40–46</p>
+<p>⭐⭐⭐⭐⭐ (5.0)</p>
+<a href="https://wa.me/254104447580?text=Hello,%20I%20want%20the%20Collector's%20Sneaker." class="order-btn">Order on WhatsApp</a>
 </div>
 </div>
 </div>
 </section>
 
-<section id="about" class="about">
+<!-- CUSTOMER REVIEWS -->
 
-<h2>About King D Shoes</h2>
+<section class="reviews">
 
-<p>
-Welcome to <strong>King D Shoes</strong>, your trusted online destination for premium footwear in Kenya.
-We offer quality sneakers, leather shoes, boots, heels, clarks, slides, sandals, crocs, loafers, sports shoes, running shoes and many more at affordable prices.
+<h2 class="section-title">What Our Customers Say</h2>
+
+<div class="review-container">
+
+<div class="review-card">
+<img src="images/customer1.jpg" alt="">
+<h3>Brian O.</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"The quality was amazing and delivery was very fast. I'll definitely buy again!"</p>
+</div>
+
+<div class="review-card">
+<img src="images/customer2.jpg" alt="">
+<h3>Faith N.</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"I loved the heels. Exactly as shown in the pictures."</p>
+</div>
+
+<div class="review-card">
+<img src="images/customer3.jpg" alt="">
+<h3>Kevin M.</h3>
+<p>⭐⭐⭐⭐⭐</p>
+<p>"Best shoe shop I've ever ordered from. Highly recommended!"</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FLASH SALE -->
+
+<section class="sale">
+
+<h2>🔥 Flash Sale 🔥</h2>
+
+<p>Up to <strong>40% OFF</strong> on selected shoes this week only.</p>
+
+<a href="#shop" class="btn">Shop Sale</a>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="section-title">About King D Shoes</h2>
+
+<p class="about-text">
+
+King D Shoes is a premium online footwear store based in Kenya.
+We provide high-quality sneakers, boots, clarks, slides,
+heels, sandals, leather shoes, sports shoes and children's footwear
+at affordable prices.
+
+Customer satisfaction is our number one priority.
+
 </p>
 
-<div class="about-boxes">
+<div class="about-grid">
 
-<div class="box">
+<div class="about-box">
+
 <h3>🚚 Fast Delivery</h3>
-<p>Delivery available across Kenya.</p>
+
+<p>Countrywide delivery available.</p>
+
 </div>
 
-<div class="box">
-<h3>💯 Quality Guarantee</h3>
-<p>We sell quality products from trusted brands.</p>
+<div class="about-box">
+
+<h3>💯 Quality</h3>
+
+<p>Premium genuine products.</p>
+
 </div>
 
-<div class="box">
-<h3>📱 Easy Ordering</h3>
-<p>Order directly through WhatsApp in seconds.</p>
+<div class="about-box">
+
+<h3>💬 Support</h3>
+
+<p>Available on WhatsApp every day.</p>
+
 </div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<h2 class="section-title">
+
+Frequently Asked Questions
+
+</h2>
+
+<div class="faq-item">
+
+<h3>Do you deliver countrywide?</h3>
+
+<p>Yes, we deliver across Kenya.</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>How do I order?</h3>
+
+<p>Simply click any WhatsApp Order button and send your order.</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Can I exchange sizes?</h3>
+
+<p>Yes. Size exchanges are accepted according to our exchange policy.</p>
 
 </div>
 
 </section>
 
-<section class="stats">
+<!-- CONTACT -->
 
-<div class="stat">
-<h2>1000+</h2>
-<p>Happy Customers</p>
-</div>
+<section id="contact">
 
-<div class="stat">
-<h2>300+</h2>
-<p>Shoe Designs</p>
-</div>
+<h2 class="section-title">
 
-<div class="stat">
-<h2>24/7</h2>
-<p>Customer Support</p>
-</div>
+Contact Us
 
-</section>
+</h2>
 
-<section id="contact" class="contact">
+<div class="contact-box">
 
-<h2>Contact Us</h2>
+<p><strong>📱 WhatsApp:</strong> +254 104 447 580</p>
 
-<p><strong>WhatsApp:</strong> +254 104 447 580</p>
+<p><strong>📧 Email:</strong> kingdshoes@gmail.com</p>
 
-<p><strong>Email:</strong> kingdshoes@gmail.com</p>
+<p><strong>📍 Location:</strong> Nairobi, Kenya</p>
 
-<p><strong>Location:</strong> Nairobi, Kenya</p>
+<a href="https://wa.me/254104447580" class="btn">
 
-<a href="https://wa.me/254104447580" class="contact-btn">
 Chat on WhatsApp
+
 </a>
 
+</div>
+
 </section>
+
+<!-- FOOTER -->
 
 <footer>
 
-<p>© 2026 King D Shoes. All Rights Reserved.</p>
+<div class="footer-content">
+
+<h2>King D Shoes</h2>
+
+<p>
+
+Premium Footwear For Men, Women & Children
+
+</p>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+<p>
+
+© 2026 King D Shoes. All Rights Reserved.
+
+</p>
+
+</div>
 
 </footer>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
